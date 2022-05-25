@@ -15,7 +15,7 @@ C:/Users/keinm/OneDrive/デスクトップ/VisualEffectGraph_HDRP
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49397
+62414
 Successfully changed project path to: C:/Users/keinm/OneDrive/デスクトップ/VisualEffectGraph_HDRP
 C:/Users/keinm/OneDrive/デスクトップ/VisualEffectGraph_HDRP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/keinm/OneDrive/デスクトップ/VisualEffectGraph_HDRP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 131.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 137.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path C:/Program Files/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -71,7 +71,7 @@ Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/Playba
 Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014724 seconds.
+Registered in 0.013546 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -80,39 +80,39 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 126.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 147.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.752 seconds
+- Completed reload, in  0.823 seconds
 Domain Reload Profiling:
-	ReloadAssembly (753ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (824ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (539ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (116ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (335ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (379ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (72ms)
+				InitializePlatformSupportModulesInManaged (77ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				RefreshPlugins (148ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013990 seconds.
+Registered in 0.016334 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\keinm\OneDrive\デスクトップ\VisualEffectGraph_HDRP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\keinm\OneDrive\デスクトップ\VisualEffectGraph_HDRP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -121,46 +121,46 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 157.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 192.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.995 seconds
+- Completed reload, in  2.558 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1996ms)
-		BeginReloadAssembly (243ms)
+	ReloadAssembly (2559ms)
+		BeginReloadAssembly (276ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (124ms)
-		EndReloadAssembly (1606ms)
-			LoadAssemblies (128ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (2071ms)
+			LoadAssemblies (175ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (446ms)
+			SetupTypeCache (561ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (101ms)
-			SetupLoadedEditorAssemblies (877ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (1131ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (38ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (157ms)
-				BeforeProcessingInitializeOnLoad (153ms)
-				ProcessInitializeOnLoadAttributes (343ms)
-				ProcessInitializeOnLoadMethodAttributes (180ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (193ms)
+				BeforeProcessingInitializeOnLoad (180ms)
+				ProcessInitializeOnLoadAttributes (490ms)
+				ProcessInitializeOnLoadMethodAttributes (219ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6222 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 53 unused Assets / (3.8 MB). Loaded Objects now: 6673.
-Memory consumption went from 282.7 MB to 278.9 MB.
-Total: 4.695600 ms (FindLiveObjects: 0.566200 ms CreateObjectMapping: 0.553600 ms MarkObjects: 2.657500 ms  DeleteObjects: 0.916900 ms)
+Memory consumption went from 282.8 MB to 279.0 MB.
+Total: 5.753700 ms (FindLiveObjects: 0.550300 ms CreateObjectMapping: 0.563300 ms MarkObjects: 3.574700 ms  DeleteObjects: 1.064100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,139 +175,2041 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 258843.784159 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fede6c51f46fa62d1c6941cc9fbeed0') in 2.654643 seconds 
+  Time since last request: 419837.858188 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd
+  artifactKey: Guid(2fd6421f253b4ef1a19526541f9ffc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd using Guid(2fd6421f253b4ef1a19526541f9ffc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1595a1f01f8a490787a7e06877c7e30') in 0.107277 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 65.275332 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20381698e6c1020f371863da580987d5') in 0.020975 seconds 
+  Time since last request: 0.041288 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonDisabled@2x.png
+  artifactKey: Guid(a383d8b1327c9254896ad76d6efaf357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonDisabled@2x.png using Guid(a383d8b1327c9254896ad76d6efaf357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9c883e5817111424c13b78288aa0d3') in 0.022018 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.305578 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b171574a669a2dffa67465644f8af4') in 0.022922 seconds 
+  Time since last request: 0.036492 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonEnabled@2x.png
+  artifactKey: Guid(9e541b6dcfb77d34481f69b3d62d0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonEnabled@2x.png using Guid(9e541b6dcfb77d34481f69b3d62d0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46d92c66481181acc61b5c9f44a6067') in 0.015471 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.677713 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd658c8c690bc4d4072f2720e9e1c315a') in 0.021368 seconds 
+  Time since last request: 0.105040 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonDisabled@2x.png
+  artifactKey: Guid(6fb5cabb85ba3794682b16eba19440cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonDisabled@2x.png using Guid(6fb5cabb85ba3794682b16eba19440cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03e3458318fde338ee7782b4e622821') in 0.014318 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.020846 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6fc1d5839e7ef12c03b018e6ba97ce') in 0.021799 seconds 
+  Time since last request: 6.577067 seconds.
+  path: Assets/_Textures/tx_glow01.png
+  artifactKey: Guid(90bb8b0ddc4152a4dbab026151fea700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/tx_glow01.png using Guid(90bb8b0ddc4152a4dbab026151fea700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffdd85dea3dcbc95a1dd32633a9bfb8') in 0.009664 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.963824 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76adba0edb541d01a201aeadcf2fd40') in 0.015487 seconds 
+  Time since last request: 11.103864 seconds.
+  path: Assets/_Textures/tx_glow01.png
+  artifactKey: Guid(90bb8b0ddc4152a4dbab026151fea700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/tx_glow01.png using Guid(90bb8b0ddc4152a4dbab026151fea700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1f7b97a2562eadc9e2df38f42f32a4') in 0.009034 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.655684 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebf109547d99636621135bdab5d3a76') in 0.022586 seconds 
+  Time since last request: 240.500236 seconds.
+  path: Assets/_Textures/tx_glow02.png
+  artifactKey: Guid(82eeb7a139e6e524eb74673eedc09ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/tx_glow02.png using Guid(82eeb7a139e6e524eb74673eedc09ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9490cbcfe4efab3b4375d6670f598c06') in 0.011206 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.486906 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa70108b292587b31a1300047803d831') in 0.020404 seconds 
+  Time since last request: 4.635858 seconds.
+  path: Assets/_Textures/tx_glow02.png
+  artifactKey: Guid(82eeb7a139e6e524eb74673eedc09ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/tx_glow02.png using Guid(82eeb7a139e6e524eb74673eedc09ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0277fc2961c8b9d8cff13ff160189f') in 0.008678 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.498146 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3585cec7f1887800bc8320c8887ea61') in 0.018852 seconds 
+  Time since last request: 7.434351 seconds.
+  path: Assets/_Textures/tx_glow02.png
+  artifactKey: Guid(82eeb7a139e6e524eb74673eedc09ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/tx_glow02.png using Guid(82eeb7a139e6e524eb74673eedc09ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41959d534809048bdefd8ecc90ab6756') in 0.008136 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 139.260881 seconds.
+  Time since last request: 90.138170 seconds.
   path: Assets/New Graph.vfx
   artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d09c33a726589d622ef55607e9eaac') in 0.023904 seconds 
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db48d7310a797c4346f05361d6961752') in 0.924991 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 557.450673 seconds.
-  path: Assets/New Graph.vfx
+  Time since last request: 18.747718 seconds.
+  path: Assets/p01.vfx
   artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d170f15d1c137a9d47a65329bce10f') in 0.024853 seconds 
+Start importing Assets/p01.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57597a5fe6fbdb3bb36a4fe0929bb75') in 0.024889 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.733568 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4a60ad7af2e7517b2c712e20d74c5a') in 0.022537 seconds 
+  Time since last request: 18.423170 seconds.
+  path: Assets/_Materials
+  artifactKey: Guid(32333b26ae5b15f408bf678e2ef8d225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials using Guid(32333b26ae5b15f408bf678e2ef8d225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3379c9886f37f7fc91761683e7db380') in 0.002419 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 70.521038 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d58da06e9dc199f091f6d6ccc9a1bb') in 0.016401 seconds 
+  Time since last request: 435.739937 seconds.
+  path: Assets/OutdoorsScene.unity
+  artifactKey: Guid(8124e5870f4fd4c779e7a5f994e84ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutdoorsScene.unity using Guid(8124e5870f4fd4c779e7a5f994e84ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8a3d0f7464a9d32c2d6b3b0cce5253') in 0.003076 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 78.866876 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f99afa99cda7f517420f5ddc0a988f') in 0.014428 seconds 
+  Time since last request: 36.071800 seconds.
+  path: Assets/_VisualEffectAssets
+  artifactKey: Guid(f611c2a039c63c8488484e9bca8ba65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets using Guid(f611c2a039c63c8488484e9bca8ba65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7565232aed52bd0a7eba3f6653765a25') in 0.001954 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 674.965456 seconds.
-  path: Assets/New Graph.vfx
+  Time since last request: 32.042949 seconds.
+  path: Assets/_VisualEffectAssets/p01.vfx
   artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac45d073de8c2432c4e3f1b94479e80') in 0.019609 seconds 
+Start importing Assets/_VisualEffectAssets/p01.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9d86897509adc16d79cfea15165fe0') in 0.025747 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.144249 seconds.
-  path: Assets/New Graph.vfx
+  Time since last request: 5.038858 seconds.
+  path: Assets/_VisualEffectAssets/p01.vfx
   artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330d67641f402a67b65ada1631ea6c39') in 0.015809 seconds 
+Start importing Assets/_VisualEffectAssets/p01.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1985f6e613e61e22da08b9bb2d2cf26') in 0.017308 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.609717 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec26354d4c8cdbf0f694258077d0d4b') in 0.020869 seconds 
+  Time since last request: 204.698512 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f34bb29fb07587b1052791adc23ecf') in 0.548811 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 109.406760 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28afb278eebb0858d5e179f2ecabd768') in 0.015167 seconds 
+  Time since last request: 160.228124 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59deb4aa65f1782f6afecd2e293e31c') in 0.016967 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 491.945089 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ae1cc810d820fd3c4d12a57bf1b2c3') in 0.027475 seconds 
+  Time since last request: 3.587811 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96af8b68e028aa7be5cdd236509063f1') in 0.647449 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.593446 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07033662df358949864e0801d5d90ab4') in 0.017726 seconds 
+  Time since last request: 24.030441 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0669accf1459cbe61eec64aa67f87b45') in 0.615123 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.508644 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faedb73d0ca8ea8278a3b9db438a8254') in 0.021342 seconds 
+  Time since last request: 28.402198 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3b2cc3a8df760f52fc6f9baa6d83ff') in 0.161603 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 239.963821 seconds.
-  path: Assets/New Graph.vfx
-  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822280363ae1a5c089186cf02016f6ef') in 0.020452 seconds 
+  Time since last request: 17.334480 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c9fd6658376f2eedf56c79639aab54') in 0.530017 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.503945 seconds.
-  path: Assets/New Graph.vfx
+  Time since last request: 6.361210 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863abd669b98d04bf73ce76cc45ca025') in 0.161586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.375068 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be2435775aa858f9dc8865850a31e61') in 0.153345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.915327 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a54b053dfa42bf4ef0a9f1adaae05d') in 0.611440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.337170 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8b7f197d6231be7ff777df8fe616e6') in 0.635660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.776710 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c177b267aceeb4ff067b92f37b6ae3') in 0.526465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.123265 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ff465d705df3160c29cfd420cc2b78') in 0.022106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.001283 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ec0f4bb826c242c0c216fafd510212') in 0.153852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.280153 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea56dce66182284fb329e3fca0fa10b') in 0.525888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.703421 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a5492e65730d0ee195ef5f54e1d1fd') in 0.148916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.875611 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2bbc8dd66c4980a64fca465d9bf063') in 0.545175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.851098 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319f990f10c222625881e01768880031') in 0.722245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.532932 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9671acbbab0e0f3bb7cf11d979c590aa') in 0.652664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.256933 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c499eaa9d9c3fc1aa989d89fc420cd') in 0.163198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.348698 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b26eeac3180718d04ae619d39afa49') in 0.020517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.915669 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e358b9fd384937f8f306db61ea124f29') in 0.143903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.068941 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aee1c64ec28f85c2be64d5a1abbb193') in 0.542156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.688676 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5da7f58969b12c8b1650099e8ab231f') in 0.143934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.685204 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bea9e237fbbedab2b904e69f24f554f') in 0.374358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.561216 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df7552a92c75a2bf4bca2e76445b10a') in 0.436933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.678297 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd93317b6bf4cd34adf6f336e46be67') in 0.170407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.041876 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcbe1f422137036f76951bb948a57fb') in 0.594958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.954147 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0339d69e8f8a315f26c8241d0a825a5') in 0.879925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.765365 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707d69aa5b276d85aaef2b7c01b0d3f1') in 0.381676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.505287 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c7a593b15ec7711294e8b58e321245') in 1.736723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.384440 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba59d5c461e4bbd8ad3b37310714a3b9') in 0.003511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.701653 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcc19c55af0101cdf5bc5a3fae0839d') in 0.401060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.201672 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a84d8a43e85f57504fc677910d9b89') in 0.372650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.634358 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee79dbb21cf29e8e33e8d9b819203d7') in 0.404504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.407188 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723e433b34e9bc605651f7d4a7f9629a') in 0.436958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.784404 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0705913596c1f4ca739902f1819f9e') in 0.416763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.833124 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3506e5c9b1df304f991d5cde61e2832e') in 0.464790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.194783 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7655127870197e04db189534d6dd5c5') in 0.018115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.857345 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c2b372dc79c75298d34d0bb3189fd9') in 0.457659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.514044 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f9405619c661199c596b55f72fe266') in 1.579384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.538098 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7bbf4f8b0ea08f84f92be1acf8f493') in 0.052974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.439003 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3993b48d9ab6cbef01f830d2ccab29') in 0.057919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.987694 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245589cc984f6e93f1338244bbbcdbed') in 0.039612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.710648 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62973be729c4eead653ede945726359d') in 0.045645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.192121 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a628cc1f6012a60ac5f3cc206ad0a66a') in 0.044846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.074377 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6889b968babd2ec4866be1f6339b024e') in 1.476519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.480294 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3230d853ffbf24c37c5f015413623fa') in 0.045034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.578081 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bcfc0c80d2e2943d3fe1b0cda4697d') in 0.043243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.654516 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76b9ecbc3550a9712b52bdfa58861a9') in 0.054388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.404888 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e802ad90cc2fcfe75df3123b69b986bf') in 0.045984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.412161 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d569f7d6955979bad639bd54c2c3d4') in 1.591609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.225633 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3a870658b7580e6dff4dc2d8a9d00e') in 0.652460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.814493 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3734b5028557cad553e011a573aaa2c') in 1.609535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.042274 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53da925894b4e63d6be1949499faecfd') in 0.748046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.231443 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f573a3c44babab8d964612bc31308f') in 0.610822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.327270 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3683fa0c78f2ac9414e0bcba368371d') in 0.782748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.469386 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abcbf3f5b3634185d5fdf98e018cd33') in 1.368382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.337269 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46616991821ff91d3ba167ac79a8121f') in 1.621643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.908938 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ceaf7862bc2c5ced08ba78c73849eb') in 0.776945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.038711 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4d26154c1cfbc6e6c5dcb663e71335') in 1.541985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.129517 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8373d31f695da8de7a67b2bc3738460') in 0.757082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.812994 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315e0c60fccbe3807b4a10512af90adf') in 0.921285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.541370 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55aaf30f8914caa9a6b7dd969e83642') in 0.756225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.746603 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e958ae5e50da4a5720c2f5f8ff4198bf') in 1.726338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.263301 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e0a1943e772b5fc55deda4925252ba') in 1.665575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.883030 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0fe6e995df56aaccf8f41bf8fe8b5a') in 0.798554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.146135 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf061b88116341d5db8b148352b128d') in 1.452804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.536126 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4beff24fec08e93954382a4088aff2d1') in 0.776150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.123246 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7da0b2cc06dbc034fe8e0d5e6950c86') in 0.633706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.678233 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371143b86fe48066c57c805c7ae91546') in 1.607565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.228707 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f270d893a1bd2d9d16c522809be73f8') in 0.727516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.835197 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5024b2c9899a9a53f785f4291e19640') in 0.788866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.655197 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8d3a43d600410299b4aae9f3ff1206') in 0.796836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.984512 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f12ead6c029d292968560798d189c7') in 0.828955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.737860 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720c9468295e8d441034082a9f009933') in 0.480409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.337641 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3f98e1fb8d27251f9e9235346d54a5') in 1.128668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.578375 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e891c7c5137759428b5d4cc38ce7c381') in 1.081327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.540717 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a746589c9383e44f115d273f2f9d3c66') in 0.817637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.773433 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b07804d8299465825177786e40e3a31') in 1.695947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.345076 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9805da96132074ccd2e4e08eec22497') in 1.111284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.937245 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e323128dccd9c31af3bbd45ed0df6ab9') in 1.895561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.603128 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a6e920a609e6f5e476b029336f9d99') in 0.648967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 188.822102 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f5f0451278c46d8ba3a8d27b6e2ed6') in 0.765278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.640929 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3debd33faea4d648de2ff24d9158262') in 0.747445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.298173 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daca7798471474903ae501dae25fd5b3') in 0.601256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.738808 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdb179863a2adf8e84b41d626d7d618') in 0.574025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.128301 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a15810b1ba303bdf68ccaf85198dc39') in 0.756856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.986015 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cee57df71aabaa7dd26885d6220205') in 0.759781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.994688 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529bb871e08e503c9aa79a48bf30ebbc') in 0.732759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.194687 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653dfb475f5af6f666800d55aa33ad68') in 1.160459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.152183 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbb28f19a06ba9ca5e6639a86865e85') in 0.695062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.464699 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c4d3730bb19fc6982928931a08279a') in 0.575086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.263568 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a11d882419fde5dfcc02f9b92c38f5') in 0.717392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.837083 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6220004e98f58d4784aa6d460fa23ccb') in 0.733530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.350112 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b1794ab3d83d859c17ae5befb96c6c') in 0.044240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.006707 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91460c61fb76e75ffa44c20951c26b3e') in 0.759568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.687410 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06befb57a7ceaf4f147ee5909d332acc') in 0.740331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.005181 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cab44b94e1a3a28c767199890b05cd') in 0.802356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.049451 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd897cc5fabf6309bfb6132b42631cf4') in 0.754685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.995665 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccd357683394ec7c8e4e30fc7eceeb5') in 1.103430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.022233 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd32d5df9855545b41a097f91304624') in 0.756586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 228.997591 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de496ed26223f12aef22057407e20fa') in 1.035827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.998668 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f35061f4f0403a5df51dca3835d9604') in 0.727611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.428241 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f76b00135902922365c64e6bdd78170') in 0.725576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.274675 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2dcec33db06d788fc9ae684c8ea648') in 0.912338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.911008 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a435329aed134f9b7093600ee067a47') in 0.786850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.472804 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4479da8f4f27931125655ca867bf5c') in 0.871644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.098759 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124208fc52861b8c6699075cceb645de') in 0.098657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.119930 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942aa9939218fc23191817be7b231e7a') in 0.734778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.181562 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae0a5e4d3b2eed56c71f216ce44128b') in 0.781976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.866097 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bb8cc15659024086daa9f96aaab1ef') in 0.745459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.270349 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913ee2f6fcbfdffca5782610e309089a') in 0.729592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.326360 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e0b843cee5061b20e6cae4a88a7a97') in 0.751521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.264688 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287184bf1bcf7265931a813075ab32f5') in 0.739145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.304507 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5106b403255c65f19b04f146920854') in 0.834362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.325032 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368848adbddbde6d5573ac6f23e5267d') in 0.827435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.611150 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386bedf6da43dad23ec72501a488d5b6') in 0.756530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.648476 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daddf176f07a0879734a1d84ab583495') in 0.749617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.823673 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d1fe3c3a89475b15de449a1fc7e6ec') in 0.749609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.793326 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514f9acc33bcaabd4885d6bc064117c1') in 0.741613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.288538 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c31941bc27aa2741882f3d336fd6dba') in 0.740641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.833647 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4db31b926ae399018cf95525e17efdb') in 0.734113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.324722 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bb1f170491d4a7c8e25b6ba49a70d5') in 0.815678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.645219 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c352452fe7ffd75e49e9a8f3e961f4d') in 0.745622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.837078 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c76d0ed26dc1cacd7e8ecf988d61ef') in 0.730163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.667185 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfda144760ce1a1b67eb9bafbb675e4') in 0.800322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.951685 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01eeb5d25e3c1c1a16c25622a5b7e12') in 0.422114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.141671 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc51d086cfe0fdbcec7894c62a82b4f') in 0.950223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.961932 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f150896adbfb214577bbb9132f423c2a') in 0.839730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.973545 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdffab7c12a603107a05fe798b0b493') in 0.844562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.903544 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3069ec2752239070a476733a9ff733af') in 0.664802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.790098 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2314dbce6c0b6a1642d0437226f761') in 0.441662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.349686 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784ed0ebe28c7b173bbae6b987b324c6') in 0.408553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.862062 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6d723559ec234c184cccf19f8b3211') in 0.417997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.869475 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b473ea2bdbaa47d3ee918cf6090a8a8') in 0.420660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.199885 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed104d2c76c74f3e28b442738eb9e01') in 0.457016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.636691 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f3960194e24d889d4d7d90a944bda8') in 0.240453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.575244 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb3c34f967b746a14fe046bcd973c2b') in 0.858789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.425790 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e73077418bb7765a21b242b4f473b7') in 0.546081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.460882 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd09b21c2d9effcc3de792af9f145d1') in 0.673381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.705580 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b01633a96d466dafdccc43f5717f7ab') in 0.400259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.264639 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf53f01d8282beef4d776d7dc0e9e326') in 0.050777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.718033 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a528ed08116a89b030d0fec3575bce2') in 0.380180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.690982 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8306658ad38d167595fa102e6716dfa') in 0.422127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.937591 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b61e3da41604d7075f748cf8d4654e') in 0.402701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.415985 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10632915b6dab5d939408cf36fcdeeb6') in 0.061012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.022267 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9b86b6316ac06484c985eb881f6bab') in 0.396634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.683269 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57333363af38841c086112b0d76c0b68') in 0.059905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.608871 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ab7b2b4e58946f4ddac9549f74802c') in 0.062940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.457176 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48edef5423554defbabb96a496caf2ac') in 0.415669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.539697 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac5d5007454fdc223a3342c5cac0c0f') in 0.381464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.758915 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c76fbd981ec72d01bef0a6106ca682') in 0.394727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.438415 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d90f4487e6dc320987cf901b17b37f') in 0.382832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.767098 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938d891593dfb6349a1a79f893a42c2a') in 0.197896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.639567 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe9ac603ccd8009e5b2a708bf501c9b') in 0.197450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.238057 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2373c0671e35c622d2de6b36d97f87a2') in 0.398592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.424172 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b37db58a5f98fe29703642434cf73e') in 0.423038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.894012 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3212050d32f917d14e04ed2cfc88717f') in 0.003131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.325878 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fab36a4c21ffd7a699741b13ec4dd6') in 0.400016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.577600 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1092704aa1ac6b62879cae518c3bb474') in 0.450558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.485282 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a65f479e96a49443d619944cd0e6568') in 0.424444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.348451 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40a3d6aa751e9a067fd1f850aa097f8') in 0.542470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.346233 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afa930b4dcd94370baacf9fa2bd95c3') in 0.647505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.771624 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fc375a52a8239f745581b1e19faff9') in 1.011341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.729707 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d051fc16725c7ac2b237dfdabd4737') in 1.295908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.497723 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a158479062039ec8b5be2ad77d85c69') in 0.419085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.161854 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391f30d59421a95911a2ed3658fc4019') in 2.101667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.565184 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc08a3e63dec99b7afd1e8f21fcc6a54') in 2.272715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.126846 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86461318b11090125ab5ea6e1a5f76ca') in 0.221249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.139398 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5209f987fc96b40bef503af09f7b92') in 0.484530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.116808 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf774087417761502dc4cf738e0c4a71') in 0.405514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.129967 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd391854e110c93a6f7f52c2775eefb4') in 0.381925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.715704 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a08151a041a259f6ef6b4faa17ff01e') in 0.408952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.667056 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c1bc8e7fea6d5b104df1a72561e2b1') in 0.448879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.601703 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e227cf7dbcc1277b6a89cd7b9e83ee') in 0.472666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.074621 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe98c29dbe24f596349d994669b0fe4') in 0.423746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.179611 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6b0ebe804268f70c9537ca4e18f8f4') in 0.222073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.942264 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e66aa08699e8d801c51a1329b6e94e') in 0.372363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.147316 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42ef9d1e72820069cb938f72793dda3') in 1.069981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.888616 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cca54e0be72e77505eb60433721a5c2') in 0.417650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.098592 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a1d1073aabe5b0780e2e074c970859') in 0.422828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.901118 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f9d8707cdd09e752f2ba0473b269fd') in 0.384470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.177532 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf070df16cec3129de9d2c852177df2a') in 0.413134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.886382 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e48bf6c8829a1c62eccc65182c5413a') in 0.480752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.978776 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06e221516e2ecd2303cca41ccabde8b') in 0.424017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.253642 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f92407641040aee31ab2d9e6f6f56a7') in 0.450253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.703298 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485a69653c77fd05db2ae74c3c1061c4') in 0.421051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.701651 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8f2aec5894991135e81ce39762c464') in 0.420513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.403838 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb26d0a79cf4c897a35982ecd2049fae') in 0.395548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 167.810604 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a8d9d942ac37d8423be3367e141f40') in 0.422375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.387671 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9926a7931964c0f1f5dd94a131b525') in 0.231351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.546156 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42876ae145ac444242b62419b8070ec') in 0.060271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.873533 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec18811919cc050b17ab41a22700cb3') in 0.177356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.012497 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be92df8f0738c493517cf329b0f1738') in 0.203419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.821516 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e92909fe12f4fab4205337747c444f') in 0.425392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.988127 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e179119e9798e5342f636f28cc7508e') in 0.180037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.788400 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e49790e6907dff1df19250c47df409') in 0.441399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.921489 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8285b673b1c28a2a0a119917cf9ec33a') in 1.111218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.188912 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51db46d002a73d863c1b9fa7366232d0') in 0.417429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.746125 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114f5bd51f627a70d995007bb66fa747') in 0.399817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.822996 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0019b62cc24ed71bfd026c9256a1222') in 0.398168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 444.044156 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ed6033f18178bc7f7793db5710a4b8') in 0.067540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.440269 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ceb79a34b0a28005640e0be7dd4b76e') in 0.410651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.941275 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11a019aa1a6554709d2d04f649e611d') in 1.630105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.283270 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e207d9c8c757922ba793e61eddcaf615') in 0.477129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.298146 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7fa75b318987bebfe0d9392412a6f9') in 0.442889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.549489 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9182fd5de7465272cd7aac2692d3c41a') in 1.439985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.422753 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08e33d530aa15d78afb9fcd8acf6540') in 0.911874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.804253 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abb44f11be95f2ae4874636a617b28a') in 0.421166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.743086 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5e694f3197276d58ff68d63ca1f75a') in 1.969333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.447250 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c860a5afdd225cde53d8386481a85b48') in 0.461941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.244918 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb619ee84eec593a089e5519dc82faf') in 1.567815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.495189 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e8a615ef3d8f0901eb8205348eebfe') in 0.424492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.292866 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5cc06215ed949120e5bd5d4ae423fe') in 0.450748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.431809 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7633c9b5f3e0bb186ed04ac2e0c4cd') in 0.402703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.503283 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c38564a7cd7dfc734e09fbb4e9a62c') in 0.434409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.461026 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caa7b27de6c6389b1c3b3965ca0b604') in 0.416842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.609185 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a985364eb30e4eaedb6e9840dc40f90') in 0.404662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.433991 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d3057f5dee9e7bd89caa1185ef982e') in 0.406213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.771209 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01512ec8174168dceaf19c2a498ff8d4') in 0.405760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.172145 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354f5bbc8660e148a19aab7f3c1f8f3c') in 1.692064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.030700 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31db6291bc02805a826929f8f872c5fb') in 0.423892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.793256 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1b4282fcd0ea662628f2e2a2915124') in 1.289033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.788258 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c54f8c3ffb2b0041e545ef9e73fccf') in 1.955129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.797842 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502daff0f1b556a4e78eb70f7f18a4ac') in 0.420666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.737921 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377974da985260f827f0ac234f86492a') in 0.416095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.720680 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44df5b478deaaa2ff76c2797024085ba') in 0.879050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.385862 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea0403dad7db1db9966f463695f9429') in 1.684918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.552976 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a79ae07d2ab51be72bf6d5600a5836') in 0.420090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.669203 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3af9bfba28d4d843fab64de125e8184') in 0.432827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.158849 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5429afa60f43a543c39548de7839f1a5') in 0.890772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.561576 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec57289b57f95c35567a471758f7445') in 0.427306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.898719 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce81bfa81317e8d8dbd856d6639397e3') in 0.396053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.844629 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c365c582db4a1d79c1935ac93eb6cc33') in 1.071016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.181236 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4cf2f22988ad615f4c3b84439d3260') in 0.188856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.632784 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df5c954f7daeab3b74191c7a25dfa4b') in 1.260321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.127671 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7085767c21602002b42a4014fc9f6d96') in 1.943935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.661798 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727275d5bbe147bff962470fa5c9c046') in 1.667984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.021622 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0b6b5c6a64ee10f8fe32e58d1db219') in 0.506383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.823911 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527bf9eec169eec1de8e3bb618ec2f6d') in 1.167150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.443445 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7721b8c37cb9b973740c7278810deb94') in 0.047162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.937040 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa420adf1dd6c47643fca193b982685') in 0.407571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.019689 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c854ee29b59d853612fb85c95b7f40c9') in 0.424941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.457339 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091796ef9e198cacd2725400cf4a0423') in 0.427432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.084756 seconds.
+  path: Assets/_VisualEffectAssets/p01.vfx
   artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4a611e19ba0b36cf8eec846f232b82') in 0.019708 seconds 
+Start importing Assets/_VisualEffectAssets/p01.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd5fb622bdd10982c73380a096e8b3c') in 0.018561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 323.066012 seconds.
+  path: Assets/_VisualEffectAssets/p01.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p01.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c8df3e5140490f2522e0a155600569') in 0.019587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.457517 seconds.
+  path: Assets/_VisualEffectAssets/p01.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p01.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5fcd2ddba2a44a9f302e590cb014ce') in 0.035478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.836673 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dc60a8d3d92b09b2ae4e5c6d6b1453') in 0.066255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.941160 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f020ee1d9ca1d68b268416c59adac89') in 0.389576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.546285 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74ae2310f3168ea8a8da32e2eb7a526') in 0.057305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.141746 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b2a975c92fe450e9777c04187b4e8f') in 0.386995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.858289 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c019dea84eddcf782cf0201f053eb88e') in 1.357843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.385105 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa69dff34836145e3a35e368f0b9676') in 1.135146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.767675 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b822c54a78a9db91b6833c34db5015') in 0.429795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.456335 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fec9f94cbfafbfaf09c11a008c6926e') in 0.944692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.785572 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1dd84f7cb3cb2ca51f8a2d18f2f2d8') in 0.947915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.041237 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6dc7aac79a1bcf4aff3369314671db') in 0.055317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.644415 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf30c6da636deeef712a9d82c2375ceb') in 0.401739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.352031 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b7ea8b7ded4535107c7c941865e410') in 0.961640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.042659 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c8fb0fd1b3a354bc5e9ca1202add1d') in 1.523171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.054352 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ed25414293f33d289e384313e16960') in 0.403079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.345565 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efc98f088b39c9fcae6709fb603494a') in 0.449299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.784641 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c8bafe477c8d5618a30673637f4628') in 1.959480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.652964 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3b4920f7ef25c04427d912fbf1a781') in 0.405115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.345924 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cca3e77dfab024695aedf3e9b6107d') in 2.143634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.907055 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e5e5505ed03946eef12625c2d39b1e') in 0.973928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.322585 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ac823914c8b2c7634a8db6dfd2161f') in 0.395106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.751169 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4509a8d97ad1e415244b8560acd2e6bf') in 0.385999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.261925 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5581484dbe19df9a9822b9f148bd7ca8') in 1.191784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.991088 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301c6e694c47be67fdc7632f2b559b69') in 0.424791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.493347 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55acf19ea5094a657ac538deb23fe32d') in 1.932211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.196829 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe9b80c7be7fb9d929a2175de9de423') in 0.398715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.608405 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d1f0bb2b9745f530ef5603867f9ad5') in 1.329765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.237115 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ce2b1db35e1b7e99caccf93c799c31') in 0.451948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.202273 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cf1cdf9925d818f03bed500adae2b8') in 0.968077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.265613 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b760b1c0c69947b0612b8eabc4eba82') in 0.393419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.609408 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b3d1313416972c87065e6df5c15269') in 0.437847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.688546 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2bebffb6568608fcd99ccd2fc3237c') in 2.097326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.406346 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c80c925c89e96a5325a7d9695112adb') in 0.411255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.163639 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e821cead5b0048e0012f686a0ef367') in 2.127069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.248998 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799e2f8b6483226eaf17a2b1f137aba8') in 0.520902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.754384 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd191c08516a2b050ac7a966d44ac92d4') in 0.394852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.314322 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8da6453c6b7bc8c071434940c4f381') in 0.411411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.526621 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2f64048d2e19b09adfda8ee7ee7e5b') in 0.432614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.737634 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b151172cb2b1a9a1bf5ff3276296d388') in 1.178100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.936258 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b0d16ec7c4c769826eb61471ff76ea') in 0.413509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.841176 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf721aaeadf163da287341ab877d53b') in 0.053600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.591541 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0341f8304b31cfe867f0982460a4856d') in 0.384589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.515796 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5df2472046a84627829abb8d9437f78') in 1.119151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.246538 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b6c95c677b184aa5978f17dca802e5') in 0.393842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.743688 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e51ec148a28336dcd1f769cbf30cd9') in 0.414380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.783816 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c239c2272554bf3c3d807491901e3af1') in 0.489743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.649491 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726acf24c5aa520713e113f064f30d0b') in 1.466465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.776446 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc9ffa9fcc5d53561c16f7816114023') in 1.704221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.384199 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f98321abba9c6701d356c945b0f555') in 2.068606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.173952 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d83f6448b97dc8abeefe13f5110e9c') in 0.411958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.870655 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a80238c42dc8f343999e40c77916ee6') in 0.487245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.042101 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a796c2cf3ec251d3adbea9016d986bcf') in 0.410884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.439147 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5deb3af083578a51484dea2ab5324bf7') in 0.390875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.139582 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6b09d175b9b676f84173cbe0e0e852') in 0.381086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.432990 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995b2becc61ba997420c3cbf14bbb41d') in 0.432395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.007105 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67cb627992e6494b51fe12a1ba1b046') in 0.430535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.740681 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4e68564317bdf5a292557c4cb4eb2e') in 0.067806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 161.861269 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ce2aff9446e605c9a96f5002fbcfa8') in 0.410251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.146756 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddfb641fbc80233a7dedf56b23e65a1') in 0.420752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.545054 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ad7404109e7ef79fd268d8bd11cbf0') in 0.459206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.877870 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0a134e612df65b7f251fa889b33168') in 0.053968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.005221 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b52cd351f7a1f8f5d5e7c29920f6f4') in 0.392176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.170827 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c4e5baa12c2f73542178023fff1b68') in 0.403477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.379700 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b2579a0881b8d0dbda7b534263e1e5') in 0.386917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.388432 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60289d08b55567bfd21c0c391b3f3cdc') in 0.393426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.169439 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cecbb7f50a01f63d68cad66162bca8') in 0.404320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.589441 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6afc9af7449b0ef3fa2b2b0e78f502e') in 0.386847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.147951 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c0d7c2ca2a2e5a60322f22a178c448') in 0.388415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.680261 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9541fd20e0ddcb31b9e87c2e98e79d48') in 0.042876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.289142 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdf34be1cab38e943831db453ef121e') in 0.960140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.226224 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10aa3dc0b76b6aeafd21a375bb7795b') in 1.108484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.080681 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a7e8985306decd5f94e4f1e669dfd6') in 0.039749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.606986 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e5261974a4816620de83651c667187') in 1.594502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.012605 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f698eebb62349290c0982a79a707512c') in 0.279942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.327511 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f38653b51da1e0a5563495f5429a12') in 1.664285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.793816 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb15408a0d91ee1a899589de78288b35') in 0.405802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.366843 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5477e59ae9ce93ce8e990383e8eea4') in 1.628208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.798239 seconds.
+  path: Assets/_VisualEffectAssets/p02.vfx
+  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3ac0f0e04ad936d23d1184d7874c2c') in 0.175246 seconds 
