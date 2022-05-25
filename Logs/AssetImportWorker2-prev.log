@@ -1,0 +1,313 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ja' Physical Memory: 16228 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/keinm/OneDrive/デスクトップ/VisualEffectGraph_HDRP
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49397
+Successfully changed project path to: C:/Users/keinm/OneDrive/デスクトップ/VisualEffectGraph_HDRP
+C:/Users/keinm/OneDrive/デスクトップ/VisualEffectGraph_HDRP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 131.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/keinm/OneDrive/デスクトップ/VisualEffectGraph_HDRP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f10)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'C:/Program Files/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014724 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 126.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (753ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (539ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (72ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013990 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\keinm\OneDrive\デスクトップ\VisualEffectGraph_HDRP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\keinm\OneDrive\デスクトップ\VisualEffectGraph_HDRP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 157.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.995 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1996ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (1606ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (877ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (157ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (180ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6222 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (3.8 MB). Loaded Objects now: 6673.
+Memory consumption went from 282.7 MB to 278.9 MB.
+Total: 4.695600 ms (FindLiveObjects: 0.566200 ms CreateObjectMapping: 0.553600 ms MarkObjects: 2.657500 ms  DeleteObjects: 0.916900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 258843.784159 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fede6c51f46fa62d1c6941cc9fbeed0') in 2.654643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.275332 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20381698e6c1020f371863da580987d5') in 0.020975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.305578 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b171574a669a2dffa67465644f8af4') in 0.022922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.677713 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd658c8c690bc4d4072f2720e9e1c315a') in 0.021368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.020846 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6fc1d5839e7ef12c03b018e6ba97ce') in 0.021799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.963824 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76adba0edb541d01a201aeadcf2fd40') in 0.015487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.655684 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebf109547d99636621135bdab5d3a76') in 0.022586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.486906 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa70108b292587b31a1300047803d831') in 0.020404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.498146 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3585cec7f1887800bc8320c8887ea61') in 0.018852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.260881 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d09c33a726589d622ef55607e9eaac') in 0.023904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 557.450673 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d170f15d1c137a9d47a65329bce10f') in 0.024853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.733568 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4a60ad7af2e7517b2c712e20d74c5a') in 0.022537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.521038 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d58da06e9dc199f091f6d6ccc9a1bb') in 0.016401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.866876 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f99afa99cda7f517420f5ddc0a988f') in 0.014428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 674.965456 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac45d073de8c2432c4e3f1b94479e80') in 0.019609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.144249 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330d67641f402a67b65ada1631ea6c39') in 0.015809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.609717 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec26354d4c8cdbf0f694258077d0d4b') in 0.020869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.406760 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28afb278eebb0858d5e179f2ecabd768') in 0.015167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 491.945089 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ae1cc810d820fd3c4d12a57bf1b2c3') in 0.027475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.593446 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07033662df358949864e0801d5d90ab4') in 0.017726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.508644 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faedb73d0ca8ea8278a3b9db438a8254') in 0.021342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 239.963821 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822280363ae1a5c089186cf02016f6ef') in 0.020452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.503945 seconds.
+  path: Assets/New Graph.vfx
+  artifactKey: Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Graph.vfx using Guid(a2416398c989a9e48a412d25d4a05e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4a611e19ba0b36cf8eec846f232b82') in 0.019708 seconds 
