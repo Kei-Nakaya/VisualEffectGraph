@@ -15,7 +15,7 @@ C:/Users/keinm/OneDrive/ドキュメント/GitHub/VisualEffectGraph
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57492
+60118
 Successfully changed project path to: C:/Users/keinm/OneDrive/ドキュメント/GitHub/VisualEffectGraph
 C:/Users/keinm/OneDrive/ドキュメント/GitHub/VisualEffectGraph
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/keinm/OneDrive/ドキュメント/GitHub/VisualEffectGraph
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 138.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 201.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path C:/Program Files/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -71,7 +71,7 @@ Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/Playba
 Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015363 seconds.
+Registered in 0.019503 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -80,39 +80,39 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 141.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 256.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.842 seconds
+- Completed reload, in  1.424 seconds
 Domain Reload Profiling:
-	ReloadAssembly (842ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1424ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (579ms)
-			LoadAssemblies (108ms)
+		EndReloadAssembly (1030ms)
+			LoadAssemblies (168ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (210ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (366ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (669ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (75ms)
+				InitializePlatformSupportModulesInManaged (145ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (142ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (257ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014533 seconds.
+Registered in 0.024135 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\keinm\OneDrive\ドキュメント\GitHub\VisualEffectGraph\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\keinm\OneDrive\ドキュメント\GitHub\VisualEffectGraph\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -121,46 +121,46 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 181.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 220.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.412 seconds
+- Completed reload, in  2.951 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2413ms)
-		BeginReloadAssembly (285ms)
+	ReloadAssembly (2953ms)
+		BeginReloadAssembly (307ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (140ms)
-		EndReloadAssembly (1941ms)
-			LoadAssemblies (168ms)
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (2427ms)
+			LoadAssemblies (218ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (552ms)
+			SetupTypeCache (669ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (120ms)
-			SetupLoadedEditorAssemblies (1046ms)
+			RebuildScriptCaches (157ms)
+			SetupLoadedEditorAssemblies (1316ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
+				InitializePlatformSupportModulesInManaged (47ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (181ms)
-				BeforeProcessingInitializeOnLoad (192ms)
-				ProcessInitializeOnLoadAttributes (404ms)
-				ProcessInitializeOnLoadMethodAttributes (220ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (220ms)
+				BeforeProcessingInitializeOnLoad (231ms)
+				ProcessInitializeOnLoadAttributes (502ms)
+				ProcessInitializeOnLoadMethodAttributes (296ms)
+				AfterProcessingInitializeOnLoad (19ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6223 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (3.8 MB). Loaded Objects now: 6676.
-Memory consumption went from 283.3 MB to 279.6 MB.
-Total: 7.261200 ms (FindLiveObjects: 0.711100 ms CreateObjectMapping: 0.742800 ms MarkObjects: 4.731500 ms  DeleteObjects: 1.074300 ms)
+Unloading 6224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (3.8 MB). Loaded Objects now: 6677.
+Memory consumption went from 283.9 MB to 280.1 MB.
+Total: 8.029900 ms (FindLiveObjects: 0.602500 ms CreateObjectMapping: 0.677700 ms MarkObjects: 5.678800 ms  DeleteObjects: 1.069400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,211 +175,295 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 509871.439605 seconds.
+  Time since last request: 599988.263958 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af71150e04629fe6022fff3d84463523') in 1.420656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.643798 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3544451b3963aaf51abe930a0130e517') in 0.029313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.183882 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a7a00d803fa57f7b146909116822d1') in 0.018927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.553281 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbde9bc1032d747daf21ce145efb3ad6') in 0.030934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 641.972528 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7ef299c8d1719090bc6a99e92dd68a') in 0.025134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 449.687608 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae385df08d65cc899de54c793420eebc') in 0.019149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.226160 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af22fd8d0f1827bded7980d551da77a3') in 0.019771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 267.806308 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6649f5eaecf374fa28d5399d3ce56889') in 0.027451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.222264 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d988f18c849c52d23c514e23372c8f') in 0.017547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.336048 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b292850e95460784d07d38849a2980') in 0.017681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.274733 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022ceb13314e74c909cd829ca699dda9') in 0.868408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.099371 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d001789353390fa79cb24d08da2527') in 0.486808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.754986 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36985ccd7aa28b75c0d9004f18af844f') in 0.478731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.896099 seconds.
+  path: Assets/VFX/Effects/MainMenu/MainMenu-Galaxy 2.vfx
+  artifactKey: Guid(e5e09090cb89bdc4780365dc190babd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/MainMenu-Galaxy 2.vfx using Guid(e5e09090cb89bdc4780365dc190babd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2454cf21796ec14f0c836e769fc303e3') in 1.001138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.761817 seconds.
+  path: Assets/VFX/Effects/MainMenu/MainMenu-Galaxy 2.vfx
+  artifactKey: Guid(e5e09090cb89bdc4780365dc190babd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/MainMenu-Galaxy 2.vfx using Guid(e5e09090cb89bdc4780365dc190babd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90240213c5f11676c4c08197899b9b2c') in 0.985367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.028702 seconds.
+  path: Assets/VFX/Effects/MainMenu/MainMenu-Galaxy.vfx
+  artifactKey: Guid(3623863759a0bbc4f800fe6989ae1942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/MainMenu-Galaxy.vfx using Guid(3623863759a0bbc4f800fe6989ae1942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664c1cbec3352758cc76984849543cfb') in 2.948184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.649575 seconds.
+  path: Assets/VFX/Effects/MainMenu/MainMenu-Galaxy.vfx
+  artifactKey: Guid(3623863759a0bbc4f800fe6989ae1942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/MainMenu-Galaxy.vfx using Guid(3623863759a0bbc4f800fe6989ae1942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba13e9fd9eddb4c6131337bc1d91dea') in 2.658263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.620382 seconds.
+  path: Assets/VFX/Effects/MainMenu/MainMenu-BG.vfx
+  artifactKey: Guid(d69f18500559c9c46820b78ca852be69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/MainMenu-BG.vfx using Guid(d69f18500559c9c46820b78ca852be69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15d6c1ca9e509ee49c3438c3c9c730e') in 2.254170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.319007 seconds.
+  path: Assets/VFX/Effects/MainMenu/MainMenu 1.vfx
+  artifactKey: Guid(afde1b87b357f0c48b132796c700806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/MainMenu 1.vfx using Guid(afde1b87b357f0c48b132796c700806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629e494b568019ed1757662306ac1e22') in 2.109361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.071165 seconds.
+  path: Assets/VFX/Effects/MainMenu/MainMenu 1.vfx
+  artifactKey: Guid(afde1b87b357f0c48b132796c700806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/MainMenu 1.vfx using Guid(afde1b87b357f0c48b132796c700806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444e3754ba18c5bb78bfd381b20bf885') in 2.779958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.647940 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774be7d45b481bc47d7bc40844c22fd8') in 1.343265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.741201 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37470711c6916e3f8a02fc7e98c4788') in 0.055244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.505658 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3e8620f95811701e04cfd5d88bcd54') in 0.076968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.637908 seconds.
   path: Assets/_VisualEffectAssets/p02.vfx
   artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac0569480d2daf2d761ac8e22bb3e9e') in 1.118559 seconds 
+Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e01cd80e58d8a03648de05627eb8b93') in 0.053690 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 330.982750 seconds.
-  path: Assets/_VisualEffectAssets
-  artifactKey: Guid(f611c2a039c63c8488484e9bca8ba65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets using Guid(f611c2a039c63c8488484e9bca8ba65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cffcc0236831b67ef6b055cdb3cb249') in 0.002538 seconds 
+  Time since last request: 6.735159 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst 1.vfx
+  artifactKey: Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst 1.vfx using Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0aeba94e06429d402d3c675125188f') in 1.191886 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 311.770981 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37904747f034e283b4c3417eec4ea5f') in 0.549989 seconds 
+  Time since last request: 18.870326 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx
+  artifactKey: Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx using Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0753bef7a4298b4bea6197841b693a4c') in 1.046511 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.339493 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c141df79f487c77f391f39dd0984d4') in 1.000260 seconds 
+  Time since last request: 4.477706 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx
+  artifactKey: Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx using Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c013631e99da45867361c56edb160d7') in 0.993875 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.473004 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec63f2bce1a151746ec96a48af1fa9a1') in 0.385331 seconds 
+  Time since last request: 21.303381 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx
+  artifactKey: Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx using Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9152033f248d60d60e4eed8f17d9e670') in 0.867557 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.080379 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2554fd134200036e0a05dd53e98a058f') in 0.387678 seconds 
+  Time since last request: 12.810047 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx
+  artifactKey: Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx using Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c807d1b0b6d7f030bee46320a5c26d07') in 0.570180 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.759183 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5330655577b9b709185b2208ec95f6') in 0.412930 seconds 
+  Time since last request: 1.274108 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b221eae39d2f871cf88249458041c30') in 0.638728 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.418402 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd017652a1f3e8bab88a53b056ac4ea8') in 0.402400 seconds 
+  Time since last request: 3.449431 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d92ff54e69681738f32b656b69fe070') in 0.643804 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.364681 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a91cc0a17203e7c23acfa6176a8d69') in 0.415393 seconds 
+  Time since last request: 116.542671 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de447881c6ff587a5de9faf493d191e') in 0.062635 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.391402 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432a1b601285433323142d5757bf595c') in 0.502547 seconds 
+  Time since last request: 38.199617 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx
+  artifactKey: Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx using Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2da814fcb174219e2079f7c2ed96c1') in 0.690339 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.013798 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1626ce94320f797de454b62ad5df10') in 0.430386 seconds 
+  Time since last request: 29.013634 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx
+  artifactKey: Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx using Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0582ce372c11a48ee5d2c3d799d48b') in 0.057448 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.369136 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8a6220a161d4144dfc549eed119a6f') in 0.419376 seconds 
+  Time since last request: 18.955436 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a0706b4401e2712bb87c43629a96e1') in 0.078827 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.932620 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1bd753827ff3553369fbb5d5c8318f') in 0.381105 seconds 
+  Time since last request: 2968.877752 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx
+  artifactKey: Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleStrip_nst.vfx using Guid(302092bbaadbe104a8801c8cf441a75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fcd8ee8b134dd6276d9e6e808257cd') in 0.666755 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.009125 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4d0182970ab32bb98ebaf41c82f685') in 0.357498 seconds 
+  Time since last request: 60.231226 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff49dbc995e2279f7ede6fe4c522870') in 0.032583 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.642918 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9390239c2e309d73d53ef5934385b98') in 0.158690 seconds 
+  Time since last request: 206.417964 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bebfd0b12c92dc01c222078d9a4cad') in 0.019484 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.741903 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24d89f08b49585ffcf24624c4005993') in 0.412658 seconds 
+  Time since last request: 52.508122 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dd0c98be827347f1a67170d05a17a5') in 0.016689 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.937892 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b81beba27a308020bb2cfdda6b30bb2') in 0.424839 seconds 
+  Time since last request: 4.114017 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b2d567d7336bbbda3faefbaadbb14a') in 0.019538 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.348052 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00666a851bbaf6e0912d6629846ec35') in 0.155866 seconds 
+  Time since last request: 5.474424 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63089431baff0abd769f6f8b4add38b') in 0.018168 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.489984 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c01dd61c2f4e1ce47997aba1f6d445') in 0.181348 seconds 
+  Time since last request: 7.585402 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da1f33555673d33d9b5ff9c01ef9531') in 0.019830 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.321279 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da4213581a3bf14bf05ef06bc28cfa7') in 0.020774 seconds 
+  Time since last request: 23.797477 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4242ce310383f2fee03a66178648eb5') in 0.030401 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.788057 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674407df0220d0b785df67fc0320a4e9') in 0.023097 seconds 
+  Time since last request: 8.898225 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26838d07e85d6c91be138da326c2ffe4') in 0.022386 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.192563 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c510dd021e01f176c2f09297dbb552') in 0.022828 seconds 
+  Time since last request: 2.776743 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e7600b765eecbaf953a0b178bde874') in 0.034562 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.911501 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad76fe74bbfb0977f1f2f50bfbbb6ee') in 0.024993 seconds 
+  Time since last request: 86.901041 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f206df268de62448e9784b9b15a938e') in 0.024504 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.934759 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84bb8a00ff66071f4cdabc2d72a9adf') in 0.156818 seconds 
+  Time since last request: 130.144793 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a6fa177b174d4ad73a52af6c81da76') in 0.030862 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 184.860344 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c5c0ed445d85887bd1ba07f5b6ad2a') in 0.151293 seconds 
+  Time since last request: 9.700570 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f675059ba7055880bb8ff73a49c5181b') in 0.026769 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.290128 seconds.
-  path: Assets/_VisualEffectAssets/p02.vfx
-  artifactKey: Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p02.vfx using Guid(4b3b3b81b76b8e44b80b666ebc6a3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66144d38d6425665451ad0d93829143e') in 0.043018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 183.328070 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e7a0352d6b613498337e6cf5b0d174') in 0.393102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.440899 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7670479148d8f7572e3f3b9aa3a08b39') in 0.015457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.535302 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6e540b8b2b33937478103fe1555f59') in 0.363776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.003271 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8d7f4cc6338841f4e6851c51671ce4') in 0.399957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.338051 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4bfb1f407a582da342657f840b8932') in 0.144505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.879626 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8a2595ada757a296b4fc50f031206a') in 0.144323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.032272 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27c559253865825b9fa9424204eb944') in 0.379538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.311363 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c5683eabe698c1496c892a6b8f5bef') in 0.150717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.931891 seconds.
-  path: Assets/_VisualEffectAssets/p03.vfx
-  artifactKey: Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VisualEffectAssets/p03.vfx using Guid(11833b80be9ca014f9027e33799ba9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a4f516aefe3a7c1f03ad2d9d565855') in 0.147238 seconds 
+  Time since last request: 43.045050 seconds.
+  path: Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx
+  artifactKey: Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Effects/MainMenu/ParticleTower_nst.vfx using Guid(587a407f79344b846acdad748070794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6a90ac5265675ced6726ac6f6d78be') in 0.039794 seconds 
